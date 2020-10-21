@@ -1,4 +1,11 @@
-## Blinking-Eye
+## Setting up Tor on Laptop
+
+ - Open command prompt to get connected to tor network using alloted IP with command 'ssh root@IP'
+ - Enter the password
+ - Open the nyx Monitor using Command 'nyx'
+ - Can view Configurations file in nano /etc/tor/torrc
+
+## Map Visualizaztion of Tor Networks
 ### A simple CLI to visualise inbound connections to a Tor Bridge
 
 #### Setup instructions
@@ -6,6 +13,7 @@
  - Install dependencies with `pip install -r requirements.txt`
  - Make sure you get a `cache.sqlite` file from your system running a Tor bridge with [nyx](https://nyx.torproject.org/) as a monitor. By default it is stored at `~/.nyx/logs`
  - Either place it in the root directory or provide a path.
+ - As for this project I already added it in my repository
 
 #### Usage
 
